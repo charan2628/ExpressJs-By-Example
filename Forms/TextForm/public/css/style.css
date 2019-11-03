@@ -1,0 +1,14 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+	width: max-content;
+	height: max-content;
+	margin: auto;
+	vertical-align: center;
+}
+
+label, input, select {
+	margin: 1em;
+}

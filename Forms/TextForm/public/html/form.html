@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    </head>
+    <body>
+    	<div id="form">
+			<form method="POST" action="/form">
+				<label for="firstName">FIRSTNAME: </label>
+			    <input type="text" id="firstName" name="firstName" /> <br/>
+			    
+			    <label for="lastName">LASTNAME: </label>
+			    <input type="text" id="lastName" name="lastName" /> <br/>
+			    
+			    <label for="dob">DATE OF BIRTH: </label>
+			    <input type="date" id="dob" name="dob" min="1990-01-01" max="2000-12-12" /> <br/>
+
+			    <label for="gender">GENDER: </label>
+			   	<select id="gender" name="gender">
+			   		<option value="Male">MALE</option>
+			   		<option value="Female">FEMALE</option>
+			   	</select>
+
+			    <label for="favouriteColor">FAVOURITE COLOR: </label>
+			    <input type="color" id="favouriteColor" name="favouriteColor" /> <br/>
+
+			    <label for="email">EMAIL: </label>
+			    <input type="email" name="email" id="email" /><br/>
+
+			    <input type="checkbox" name="accept" id="accept" value="true" required/>
+			    <label name="accept"> ACCEPT TERMS & CONDITIONS</label> <br/>
+
+			    <label id="notifications">RECIEVE NOTIFICATIONS: </label>
+			    <input type="radio" name="notifications" id="notifications" value="yes"/> Yes
+			    <input type="radio" name="notifications" id="notifications" value="no"/> No <br/>
+
+			    <input type="submit" name="submit" value="SUBMIT" />
+			</form>
+    	</div>
+    </body>
+</html>

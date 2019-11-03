@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>MULTI FILE UPLOAD</title>
+    </head>
+    <style>
+        form {
+            width: max-content;
+            height: max-content;
+            margin: auto;
+        }
+    </style>
+    <body>
+        <form method="post" enctype="multipart/form-data" action="/fileupload/gallery">
+            <input type="file" name="gallery" multiple=true/> <br/>
+            <input type="submit" value="SUBMIT" />
+        </form>
+    </body>
+</html>
